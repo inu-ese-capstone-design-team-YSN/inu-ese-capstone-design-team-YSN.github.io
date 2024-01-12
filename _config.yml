@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "입샛노랑 캡스턴디자인 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Info"
+name                     : "입샛노랑"
 description              : ""
 url                      : "https://inu-ese-capstone-design-team-YSN.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "입샛노랑"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "인천대학교 임베디드시스템공학과 캡스턴디자인 팀 <입샛노랑>입니다."
+  bio              : "인천대학교 임베디드시스템공학과  캡스턴디자인 팀 <입샛노랑>입니다."
   location         : "인천광역시 연수구 아카데미로 119 (송도동 12-1)"
   email            :
   links:
