@@ -108,9 +108,9 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "캡스턴디자인 팀 입샛노랑입니다."
   location         : "인천광역시 연수구 아카데미로 119 (송도동 12-1)"
-  email            : "inujdk@inu.ac.kr"
+  email            : 
   links:
-    - label: "Email"
+    - label: "inujdk@inu.ac.kr"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:inujdk@inu.ac.kr"
     - label: "Website"
