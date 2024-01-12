@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "입샛노랑"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "인천대학교 임베디드시스템공학과 2024 캡스턴디자인"
+  location         : "인천대학교"
   email            :
   links:
     - label: "Email"
