@@ -106,9 +106,9 @@ analytics:
 author:
   name             : "Bio"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "인천대학교 임베디드시스템공학과                           캡스턴디자인 팀 입샛노랑입니다."
+  bio              : "캡스턴디자인 팀 입샛노랑입니다."
   location         : "인천광역시 연수구 아카데미로 119 (송도동 12-1)"
-  email            :
+  email            : "inujdk@inu.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
