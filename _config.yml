@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "캡스턴디자인 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "입샛노랑"
+description              : "인천대학교 임베디드시스템공학과 2024 캡스턴디자인 팀 입샛노랑 개발 기록 블로그"
 url                      : "https://inu-ese-capstone-design-team-YSN.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,7 +107,7 @@ author:
   name             : "입샛노랑"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "인천대학교 임베디드시스템공학과 2024 캡스턴디자인"
-  location         : "인천대학교"
+  location         : "인천광역시 연수구 아카데미로 119 (송도동 12-1)"
   email            :
   links:
     - label: "Email"
