@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Weekly Diary 6주차(2024.04.01 ~ 2024.04.07)"
+title:  "Weekly Diary 6주차(2024.04.08 ~ 2024.04.14)"
 excerpt: "6주차 개발 기록 정리"
 categories: WeeklyㅤDiary
 # tag: [python, blog, food]
