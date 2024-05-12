@@ -24,6 +24,7 @@ auto_profile: false
 2024-05-09 (목) 19:00 ~ 05:30  
 총 활동 시간: 16시간 30분  
 **<u>대괄호로 작성된 부분은 정규 회의 시간임.</u>*
+{: .notice--alert .text-center}
 
 <br>
 
@@ -33,9 +34,9 @@ auto_profile: false
 
 > TPG 2626장의 코드 번호를 뒷면에 작성한다. 이는 TPG를 촬영 규격에 맞게 커팅할 때, 데이터를 구분하기 위한 과정이다.
 
-![image-20240512222545895](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222545895.png)
+![image-20240512222545895](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222545895.png){: .img-default-setting}
 
-![image-20240512222553475](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222553475.png)
+![image-20240512222553475](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222553475.png){: .img-default-setting}
 
 <br>
 
@@ -79,11 +80,11 @@ auto_profile: false
 
   MobileNet 구조의 핵심으로 표준 convolution을**Deptwise convolution(*dwConv*)**과 **Pointwise convolution(*pwConv*)**으로 분리한것이다. **dwConv**는 각 입력 채널당 1개의 filter를 적용하고, **pwConv**는 **dwConv**의 결과를 합치기 위해 1×1conv를 적용한다. Depthwise separable convolution은 이를 2개의 layer로 나누어 구성되고 이를 통해 모델 크기를 줄일 수 있다.
 
-  ![image-20240512222656171](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222656171.png)
+  ![image-20240512222656171](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222656171.png){: .img-default-setting}
 
-  ![image-20240512222705738](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222705738.png)
+  ![image-20240512222705738](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222705738.png){: .img-default-setting}
 
-  ![image-20240512222724571](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222724571.png)
+  ![image-20240512222724571](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222724571.png){: .img-default-setting}
 
   <br>
 
@@ -98,25 +99,25 @@ auto_profile: false
 
   *dwConv의 연산량*
 
-  ![image-20240512222756069](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222756069.png)
+  ![image-20240512222756069](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222756069.png){: .img-width-large}
 
   *pwConv의 연산량*
 
-  ![image-20240512222801579](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222801579.png)
+  ![image-20240512222801579](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222801579.png){: .img-width-large}
 
   *DSConv의 총합 연산량*
 
-  ![image-20240512222807544](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222807544.png)
+  ![image-20240512222807544](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222807544.png){: .img-width-large}
 
   *StdConv의 연산량*
 
-  ![image-20240512222813167](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222813167.png)
+  ![image-20240512222813167](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222813167.png){: .img-width-large}
 
 <br>
 
 - **MobileNet의 구조**
 
-  ![image-20240512222825352](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222825352.png)
+  ![image-20240512222825352](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222825352.png){: .img-default-setting}
 
 <br>
 
@@ -180,11 +181,11 @@ auto_profile: false
 
    *Std Conv*
 
-   ![image-20240512222843322](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222843322.png)
+   ![image-20240512222843322](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222843322.png){: .img-default-setting}
 
    *DSConv*
 
-   ![image-20240512222851533](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222851533.png)
+   ![image-20240512222851533](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222851533.png){: .img-default-setting}
 
    일반 Convolution방식에 비해 Depthwise Separable Convolution 방식을 사용해 모델의 추정 크기를 반 이하로 줄였고 학습 속도 역시 크게 단축 된 것을 확인 할 수 있다.
 
@@ -366,15 +367,15 @@ CNN을 활용한 대표 색상 추론을 위해 클러스터 별로 픽셀(MCU)�
 
 아래의 출력 값들은 가장 적은 수의 픽셀을 가진 이미지 크기로 모든 단색 이미지 크기를 맞춰 조정한 이후 CNN을 활용한 대표 색상 추론에 적용해본 결과이다.
 
-![image-20240512222924014](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222924014.png)
+![image-20240512222924014](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222924014.png){: .img-width-large}
 
 
 
-![image-20240512222931787](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222931787.png)
+![image-20240512222931787](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222931787.png){: .img-width-large}
 
-![image-20240512222941113](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222941113.png)
+![image-20240512222941113](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222941113.png){: .img-width-large}
 
-![image-20240512222947672](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222947672.png)
+![image-20240512222947672](/images/2024-05-12-Weekly Diary(10주차)/image-20240512222947672.png){: .img-width-large}
 
 ***⇒***
 
