@@ -25,7 +25,7 @@ auto_profile: false
 2024-05-02 (목) **[11:00 ~> 12:00]**, 12:00 ~> 20:00  
 총 활동 시간: 14시간 30분  
 **대괄호로 작성된 부분은 정규 회의 시간임.*
-{: .notice--alert .text-center}
+{: .notice--danger .text-center}
 
 <br>
 
